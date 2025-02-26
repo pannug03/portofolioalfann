@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Alfan Nugraha - Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navvv">
+        <div class="logo">AlfanNugraha</div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#sertifikat">Sertifikat</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social">
+            <a href="https://Wa.me/+6281368815156" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/alfannugraha0303/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="hero-content">
+            <h1>Hello, I'm Alfan Nugraha,</h1>
+            <h2>Siswa<br>SMKN 4 Bandung</h2>
+        </div>
+        <div class="hero-image">
+            <img src="foto_cv-removebg-preview.png" alt="AlfanNugraha">
+            <div class="decorative-elements"></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">about.</h2>
+        <p class="section-intro">Saya Alfan Nugraha, lahir di Garut 03 Maret 2008, hobi saya main game dan sepak bola, Saya sekarang sekolah di SMKN 4 Bandung, jurusan Rekayasa Perangkat Lunak.
+            Saya memiliki ketertarikan dalam dunia IT, saya ingin menjadi seorang Front End Web. Saya memiliki kemampuan dalam mendesain UI UX menggunakan Figma dan Laravel.
+        </p>
+
+        <h2>Skills</h2>
+        <br>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>UI UX Designer</h3>
+                <p>Mendesain UI UX menggunakan Figma.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Laravel</h3>
+                <p>Html, Css, Php.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sertifikat">
+        <h2 class="section-title">Sertifikat</h2>
+        <p class="section-intro">Saya mengikuti pelatihan digitalent dari kominfo, dan Web binar Figma UI UX.</p>
+        
+        <div class="case-studies">
+            <section id="certificates" class="section black">
+                <div class="card-container">
+                    <div class="card">
+                        <iframe src="Sertifikat_ALFAN NUGRAHA_Data Analytics untuk Siswa SMA_Sederajat.pdf" width="250" height="150"></iframe>    
+                        <a href="Sertifikat_ALFAN NUGRAHA_Data Analytics untuk Siswa SMA_Sederajat.pdf" target="_blank">Lihat Sertifikat</a>     
+                        <h3>Digital Talent Scholarship</h3>
+                    </div>
+                    <div class="card">
+                        <iframe src="Alfan Nugraha.pdf" width="250" height="150"></iframe>    
+                        <a href="Alfan Nugraha.pdf" target="_blank">Lihat Sertifikat</a>  
+                        <h3>Figma : Solusi Desain UI</h3>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">contact.</h2>
+        <div class="contact-content">
+            <img src="kontak_me.jpg" alt="Contact">
+            <div class="contact-info">
+                <p>Jika ingin menghubungi lebih lanjut, anda bisa klik dibawah ini, lalu kirim pesan.</p>
+                <div class="contact-links">
+                    <a href="mailto:alfannugraha080@gmail.com">alfannugraha080@gmail.com</a>
+                    <a href="https://t.me/alfqn3">telegram/@alfqn3</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+    <script>
+        window.onscroll = function() {
+    let btn = document.getElementById("scrollTopBtn");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        btn.style.display = "block";
+    } else {
+        btn.style.display = "none";
+    }
+};
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+    </script>
+</body>
+</html>
